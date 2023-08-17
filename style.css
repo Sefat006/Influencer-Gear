@@ -1,0 +1,52 @@
+
+body{
+    font-family: system-ui, sans-serif;
+    background: #FFFFFF;
+}
+/* -----------header part---------- */
+/* ---nav part--- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+
+}
+.nav-title{
+    font-size: 34px;
+}
+.nav-list{
+    list-style: none;
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+/* --banner design-- */
+.banner{
+    display: flex;
+}
+.banner-box{
+    padding: 50px 200px;
+}
+.banner-title{
+    font-size: 70px;
+}
+.banner-description{
+    font-size: 22px;
+    margin-top: 16px;
+}
+.button{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+.banner img{
+    height: 540px;
+    margin-top: 50px;
+    margin-right: 220px;
+}
