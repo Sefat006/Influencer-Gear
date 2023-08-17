@@ -22,7 +22,10 @@ nav{
     gap: 30px;
     align-items: center;
 }
+
+
 /* --banner design-- */
+
 .banner{
     display: flex;
 }
@@ -49,4 +52,23 @@ nav{
     height: 540px;
     margin-top: 50px;
     margin-right: 220px;
+}
+
+/* ------icon section------ */
+
+.icon-section{
+    margin-top: 166px;
+}
+.icons img{
+    height: 40px;
+}
+.hr{
+    padding: 0px 200px;
+    color: #e6e9eb;
+}
+.icons{
+    padding: 50px 200px;
+    gap: 80px;
+    justify-content: center;
+    display: flex;
 }
