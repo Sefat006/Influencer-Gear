@@ -1,20 +1,33 @@
-
-body{
+/* box-sizing:border-box */
+*{
+    padding: 0px;
+    margin: 0px;
+ 
+}
+body {
     font-family: system-ui, sans-serif;
     background: #FFFFFF;
+    /* margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    margin-top:10%;
+        */
 }
+
 /* -----------header part---------- */
 /* ---nav part--- */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 50px 150px;
 
 }
-.nav-title{
+
+.nav-title {
     font-size: 34px;
 }
-.nav-list{
+
+.nav-list {
     list-style: none;
     font-size: 28px;
     font-weight: 500;
@@ -26,21 +39,27 @@ nav{
 
 /* --banner design-- */
 
-.banner{
+.banner {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.banner-box{
-    padding: 50px 200px;
+
+.banner-box {
+    padding: 50px 150px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 70px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 22px;
     margin-top: 16px;
 }
-.button{
-    background-color: #FD6E0A;
+
+.button {
+    background-color: #E02C6D;
     padding: 18px 35px;
     color: aliceblue;
     font-size: 24px;
@@ -48,27 +67,106 @@ nav{
     border-radius: 10px;
     margin-top: 16px;
 }
-.banner img{
+
+.banner img {
     height: 540px;
     margin-top: 50px;
-    margin-right: 220px;
+    margin-right: 120px;
 }
 
 /* ------icon section------ */
 
-.icon-section{
+.icon-section {
     margin-top: 166px;
 }
-.icons img{
+
+.icons img {
     height: 40px;
 }
-.hr{
+
+.hr {
     padding: 0px 200px;
     color: #e6e9eb;
 }
-.icons{
+
+.icons {
     padding: 50px 200px;
     gap: 80px;
     justify-content: center;
     display: flex;
+}
+
+/* -------popular collection-------- */
+
+.popular-collection {
+    /* padding: 200px; */
+
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 550;
+    text-align: center;
+    padding: 100px;
+    /* height: px; */
+}
+
+.item {
+    background-color: #FFFFFF;
+    /* gap: none; */
+    /* border: 2px solid black; */
+    /* height: 476px;
+    width: 329px; */
+    /* padding: 476px 329px; */
+}
+
+.item-name {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.tk {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.item-description {
+    align-items: left;
+    color: #787885;
+    font-size: 25px;
+}
+
+/* --------feautures of the products------------ */
+
+.container {
+    display: flex;
+    padding: 50px 150px;
+    gap: 92px;
+    margin-top: 92px;
+}
+
+.container img {
+    height: 420px;
+    width: 540px;
+}
+
+.title {
+    font-size: 70px;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+.description{
+    color: #787885;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.button-1 {
+    padding: 18px 35px;
+    background-color: #E02C6D;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-top: 25px;
 }
