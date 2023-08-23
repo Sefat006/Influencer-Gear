@@ -2,16 +2,14 @@
 *{
     padding: 0px;
     margin: 0px;
- 
-}
+ }
 body {
     font-family: system-ui, sans-serif;
     background: #FFFFFF;
-    /* margin-left:10%;
-    margin-right:10%;
-    margin-bottom:10%;
-    margin-top:10%;
-        */
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /* -----------header part---------- */
@@ -45,7 +43,7 @@ nav {
     align-items: center;
 }
 
-.banner-box {
+.banner-box{
     padding: 50px 150px;
 }
 
@@ -87,6 +85,7 @@ nav {
 .hr {
     padding: 0px 200px;
     color: #e6e9eb;
+    max-width: none;
 }
 
 .icons {
@@ -98,42 +97,79 @@ nav {
 
 /* -------popular collection-------- */
 
-.popular-collection {
-    /* padding: 200px; */
-
+.popular-collection{
+    padding: 0px px;
 }
 
 .section-title {
     font-size: 50px;
     font-weight: 550;
     text-align: center;
-    padding: 100px;
+    margin-top: 300px;
+    padding: 50px;
     /* height: px; */
 }
-
-.item {
-    background-color: #FFFFFF;
-    /* gap: none; */
-    /* border: 2px solid black; */
-    /* height: 476px;
-    width: 329px; */
-    /* padding: 476px 329px; */
+.item{
+    background-color: white;
+    box-shadow: 0px 25px 35px lightgrey;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-left: 10%;
+    
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 26%);
+    gap: 24px;
+    justify-content: center;
+    padding: 5px;
+}
+.img{
+    margin-top: 50px;
+    margin-left: 17px;
 }
 
 .item-name {
     font-size: 40px;
     font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 17px;
 }
 
 .tk {
     font-size: 35px;
     font-weight: 300;
+    margin-bottom: 8px;
+    margin-left: 17px;
+}
+.fa-star{
+    color: orange;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 17px;
+}
+.empty{
+    color: white;
 }
 
 .item-description {
     align-items: left;
     color: #787885;
     font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+.ancore{
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+.see-more{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* --------feautures of the products------------ */
@@ -142,12 +178,14 @@ nav {
     display: flex;
     padding: 50px 150px;
     gap: 92px;
-    margin-top: 92px;
+    margin-top: 260px;
 }
 
 .container img {
     height: 420px;
     width: 540px;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .title {
