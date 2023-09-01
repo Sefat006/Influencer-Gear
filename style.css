@@ -208,3 +208,23 @@ nav {
     color: white;
     margin-top: 25px;
 }
+footer{
+    background-color: rgb(11, 11, 64);
+    color: white;
+    padding: 97px;
+}
+footer h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+footer p{
+    font-size: 22px;
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+}
+.copyright{
+    margin-top: 29px;
+    margin-bottom: 15px;
+}
